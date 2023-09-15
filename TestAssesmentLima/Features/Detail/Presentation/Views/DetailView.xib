@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailView" customModule="TestAssesmentLima" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrn-8D-dPK">
+                    <rect key="frame" x="0.0" y="47" width="390" height="797"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAh-p5-z5i">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="487.66666666666669"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aPU-LM-4uC">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="487.66666666666669"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5dN-rA-VVg" customClass="CustomImageView" customModule="TestAssesmentLima" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="260"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="5dN-rA-VVg" secondAttribute="height" multiplier="3:2" id="U6Z-SL-Gt2"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RwA-Ok-so2">
+                                            <rect key="frame" x="0.0" y="280" width="390" height="151.33333333333337"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwO-Lj-i6z">
+                                                    <rect key="frame" x="24.000000000000004" y="7.9999999999999982" width="55.333333333333343" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaQ-Ku-v6V">
+                                                    <rect key="frame" x="24" y="44.333333333333314" width="41" height="26.333333333333329"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz5-sF-VQs">
+                                                    <rect key="frame" x="24.000000000000004" y="86.666666666666686" width="62.333333333333343" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nU1-gi-nyA">
+                                                    <rect key="frame" x="24" y="122.99999999999999" width="131" height="20.333333333333329"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hC-qj-MOu">
+                                                            <rect key="frame" x="0.0" y="0.0" width="26" height="20.333333333333332"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 played" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeV-Yx-ejn">
+                                                            <rect key="frame" x="42" y="0.0" width="89" height="20.333333333333332"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="24" bottom="8" trailing="24"/>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Z3N-J2-l7D">
+                                            <rect key="frame" x="0.0" y="451.33333333333331" width="390" height="36.333333333333314"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfT-16-YPH">
+                                                    <rect key="frame" x="24" y="7.9999999999999982" width="342" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <string key="userLabel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit scelerisque in dictum non consectetur a erat. Porta nibh venenatis cras sed felis eget. Sagittis orci a scelerisque purus semper eget duis. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Eget mauris pharetra et ultrices neque ornare aenean euismod. A arcu cursus vitae congue. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Duis ultricies lacus sed turpis tincidunt id. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi.  Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Id interdum velit laoreet id donec ultrices. Mauris nunc congue nisi vitae suscipit tellus. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Pharetra sit amet aliquam id diam. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Blandit massa enim nec dui. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Condimentum id venenatis a condimentum vitae. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Lacus laoreet non curabitur gravida. Neque sodales ut etiam sit amet nisl purus in mollis. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Risus ultricies tristique nulla aliquet enim tortor at.  Donec pretium vulputate sapien nec sagittis aliquam. Aliquet lectus proin nibh nisl condimentum id. Turpis egestas sed tempus urna et pharetra pharetra. Ut tellus elementum sagittis vitae et leo duis ut. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Commodo nulla facilisi nullam vehicula ipsum. Quis hendrerit dolor magna eget. Sed lectus vestibulum mattis ullamcorper. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Scelerisque viverra mauris in aliquam sem. Consequat semper viverra nam libero justo laoreet. Pharetra massa massa ultricies mi quis hendrerit.  Cursus in hac habitasse platea. Eleifend mi in nulla posuere sollicitudin. In arcu cursus euismod quis viverra nibh cras pulvinar. Magnis dis parturient montes nascetur ridiculus mus. Id aliquet risus feugiat in. Sagittis eu volutpat odio facilisis. Vitae nunc sed velit dignissim sodales ut eu sem. Commodo viverra maecenas accumsan lacus. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Morbi tristique senectus et netus et malesuada. Libero id faucibus nisl tincidunt. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Gravida cum sociis natoque penatibus et magnis. Nunc sed id semper risus in hendrerit gravida rutrum. Est velit egestas dui id ornare arcu odio ut. Non consectetur a erat nam at lectus. Duis at tellus at urna condimentum mattis pellentesque.  Gravida in fermentum et sollicitudin ac orci. Arcu ac tortor dignissim convallis aenean et tortor at. Mattis rhoncus urna neque viverra justo. Augue lacus viverra vitae congue eu. Scelerisque purus semper eget duis at tellus at. Scelerisque in dictum non consectetur. Turpis in eu mi bibendum neque egestas congue quisque. Amet mauris commodo quis imperdiet massa tincidunt nunc. Purus semper eget duis at tellus at urna. Cursus risus at ultrices mi tempus imperdiet. Dictum at tempor commodo ullamcorper a. Morbi tristique senectus et netus et malesuada fames ac. Duis ultricies lacus sed turpis tincidunt id aliquet. Condimentum lacinia quis vel eros donec ac odio tempor orci. Odio aenean sed adipiscing diam donec adipiscing.</string>
+                                                </label>
+                                            </subviews>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="24" bottom="8" trailing="24"/>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="aPU-LM-4uC" secondAttribute="bottom" id="Hki-b5-n5p"/>
+                                <constraint firstAttribute="trailing" secondItem="aPU-LM-4uC" secondAttribute="trailing" id="eOH-9D-aId"/>
+                                <constraint firstItem="aPU-LM-4uC" firstAttribute="leading" secondItem="rAh-p5-z5i" secondAttribute="leading" id="qKj-8F-rSw"/>
+                                <constraint firstItem="aPU-LM-4uC" firstAttribute="top" secondItem="rAh-p5-z5i" secondAttribute="top" id="wUF-no-xYV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="rAh-p5-z5i" secondAttribute="bottom" id="Kb6-hQ-tRN"/>
+                        <constraint firstAttribute="trailing" secondItem="rAh-p5-z5i" secondAttribute="trailing" id="OFx-BB-x3Y"/>
+                        <constraint firstItem="rAh-p5-z5i" firstAttribute="top" secondItem="yrn-8D-dPK" secondAttribute="top" id="dfE-Cg-R4R"/>
+                        <constraint firstItem="rAh-p5-z5i" firstAttribute="leading" secondItem="yrn-8D-dPK" secondAttribute="leading" id="diU-rm-uQU"/>
+                        <constraint firstItem="rAh-p5-z5i" firstAttribute="height" secondItem="yrn-8D-dPK" secondAttribute="height" priority="250" id="faz-cq-Low"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yrn-8D-dPK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="UFH-Xe-SHA"/>
+                <constraint firstItem="yrn-8D-dPK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dpr-t5-abO"/>
+                <constraint firstAttribute="bottom" secondItem="yrn-8D-dPK" secondAttribute="bottom" id="hEr-qg-vRU"/>
+                <constraint firstItem="rAh-p5-z5i" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="u2p-p6-wvy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yrn-8D-dPK" secondAttribute="trailing" id="xSi-oT-BM4"/>
+            </constraints>
+            <connections>
+                <outlet property="bannerImageView" destination="5dN-rA-VVg" id="6uY-zR-fWe"/>
+                <outlet property="descriptionLabel" destination="MfT-16-YPH" id="KYL-CJ-SfU"/>
+                <outlet property="developerLabel" destination="QwO-Lj-i6z" id="0v3-bw-iI1"/>
+                <outlet property="playedLabel" destination="IeV-Yx-ejn" id="Uif-7A-169"/>
+                <outlet property="ratingLabel" destination="6hC-qj-MOu" id="Ahe-h5-zti"/>
+                <outlet property="releaseDateLabel" destination="vz5-sF-VQs" id="Qma-xN-flZ"/>
+                <outlet property="titleLabel" destination="QaQ-Ku-v6V" id="HQ9-ch-P4G"/>
+            </connections>
+            <point key="canvasLocation" x="61.538461538461533" y="-193.3649289099526"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
